@@ -2,6 +2,12 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import CompanyLogo from "./components/CompanyLogo";
+import AboutUs from "./components/AboutUs";
+import FeaturesSection from "./components/FeaturesSection";
+import  ScheduleSection  from "./components/ScheduleSection";
+import MonitorSection from "./components/MonitorSection";
+import PricingSection from "./components/PricingSection";
+
 function App() {
   return (
     <main className="relative min-h-screen overflow-x-hidden">
@@ -10,6 +16,13 @@ function App() {
         <Navbar />
         <Hero />
         <CompanyLogo />
+        <AboutUs />
+        <FeaturesSection />
+        <ScheduleSection />
+        <MonitorSection />
+        <PricingSection />
+
+        
       </div>
     </main>
   );

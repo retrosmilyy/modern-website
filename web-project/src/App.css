@@ -1,0 +1,14 @@
+.animate-new {
+    animation: new 25s linear infinite;
+
+}
+
+@keyframes new {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+    
+}
